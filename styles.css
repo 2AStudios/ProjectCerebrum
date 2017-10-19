@@ -31,3 +31,12 @@ body::after {
     content: '';
     //background-image: radial-gradient(rgba(177, 133, 187, 0) 10%, rgba(177, 133, 187, 0.7) 100%);
 }
+
+.row [class*="col-"]{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+.row{
+  overflow: hidden; 
+}
